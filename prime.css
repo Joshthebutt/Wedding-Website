@@ -1,0 +1,155 @@
+/*css*/
+body{
+	background-color:#014421;
+	background-image:url("falling.gif");
+	font-family:arial, "Helvetica", sans-serif;
+	margin:0px 0px 0px 0px;
+	min-width:800px;
+}
+header{
+	height:120px;
+	background-color:white;
+	padding-top:1px;
+	 background-size: contain;
+	 background-repeat: no-repeat;
+}
+h1{
+	color:#003366;
+	font-size:3em;
+	font-family: "Edwardian Script ITC";
+	text-align:center;
+	font-weight:bold;
+}
+nav a:link {color:white;}
+nav a:visited{color:#BACBE0;}
+nav ul {list-style-type:none;}
+nav li {display:inline;
+		padding:4em;}
+main{
+	background-color:white;
+	padding-top:20px;
+	padding-bottom:20px;
+	padding-left:50px;
+	padding-right:50px;
+}
+footer{
+	font-size:.7em;
+	text-align:center;
+	border-top:1px solid #003366;
+	background-color:#6B8354;
+	padding-top:10px;
+	padding-bottom:10px;
+	background-image:url("falling.gif");
+	
+}
+.company{
+	font-style:italic;
+	font-weight:bold;
+}
+.copyright{
+	font-style:italic;
+}
+
+
+
+
+
+
+
+
+
+* {box-sizing:border-box}
+
+/* Slideshow container */
+.slideshow-container {
+  border: 10px solid transparent;
+  padding: 0px;
+ 
+  max-width: 1000px;
+  position: relative;
+  margin: auto;
+  text-align:center
+}
+
+/* Hide the images by default */
+.mySlides {
+  display: none;
+}
+
+
+/* Position the "next button" to the right */
+.next {
+margin-left:138px;
+margin-right:138px;
+  right: 0;
+  border-radius: 3px 0 0 3px;
+}
+
+/* On hover, add a black background color with a little bit see-through */
+.prev:hover, .shader:hover {
+  filter: brightness(50%);
+  transition-delay: 0.1s;
+}
+
+.container2 {
+  position: relative;
+  text-align: left;
+  color: white;
+}
+.centered {
+  position: relative;
+  transform: translate(-50%, -50%);
+  visibility:none;
+  color:black;
+}
+.centered:hover{
+  position: relative;
+  visibility:visible;
+}
+/* Caption text */
+.text {
+  color: #f2f2f2;
+  font-size: 15px;
+  padding: 8px 12px;
+  position: absolute;
+  bottom: 8px;
+  width: 100%;
+  text-align: center;
+}
+
+/* Number text (1/3 etc) */
+.numbertext {
+  color: #f2f2f2;
+  font-size: 12px;
+  padding: 8px 12px;
+  position: absolute;
+  top: 0;
+}
+
+/* The dots/bullets/indicators */
+.dot {
+
+  cursor: pointer;
+  height: 15px;
+  width: 15px;
+  margin: 0 2px;
+  background-color: #bbb;
+  border-radius: 50%;
+  display: inline-block;
+  transition: background-color 0.6s ease;
+}
+
+.active, .dot:hover {
+  background-color: #717171;
+}
+
+/* Fading animation */
+.fade {
+  animation-name: fade;
+  animation-duration: 1.5s;
+}
+
+@keyframes fade {
+  from {opacity: .4}
+  to {opacity: 1}
+}
